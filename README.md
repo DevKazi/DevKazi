@@ -21,7 +21,7 @@
 
 - 📫 How to reach me **kazimukitulislam@gmail.com**
 
-- ⚡ Fun fact **Learning**
+- ⚡ Fun fact **Learn and Practice**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
