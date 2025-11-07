@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Kazi Mukitul Islam</h1>
+<img src="[https://www.linkedin.com/in/devkazi/overlay/background-image/](https://media.licdn.com/dms/image/v2/D5616AQFTYHOw4iZtrA/profile-displaybackgroundimage-shrink_350_1400/B56ZoWhNOfHQAY-/0/1761314398859?e=1764201600&v=beta&t=3rO-8QOA0jBR3ZzVri5nIWF2FM30r7HFKA8bW4J48zo)">
 <h3 align="center">Web Design | Web Development | Web Application | SEO | Innovation Enthusiast</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=devkazi&label=Profile%20views&color=0e75b6&style=flat" alt="devkazi" /> </p>
