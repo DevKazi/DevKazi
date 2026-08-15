@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevKazi | Portfolio - Web Design, Web Development & SEO Specialist</title>
+    <meta name="description" content="Professional portfolio of DevKazi, a specialist in custom Web Design, Web Development, and SEO. Explore featured projects, specialized services, and connect for collaboration.">
+    
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="DevKazi | Web Design & Development Portfolio">
+    <meta property="og:description" content="Explore custom web designs, clean-code web applications, and search engine optimization services by DevKazi.">
+    <meta property="og:image" content="assets/portfolio_banner.jpg">
+    <meta property="og:type" content="website">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="main-header" id="navbar">
+        <div class="container header-container">
+            <a href="#" class="logo" id="logo-link">
+                <span class="logo-symbol">&lt;/&gt;</span>
+                <span class="logo-text">DevKazi</span>
+            </a>
+            
+            <nav class="nav-menu" id="navigation-menu">
+                <ul>
+                    <li><a href="#about" class="nav-link active">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle visual theme" title="Toggle Light/Dark Theme">
+                    <!-- Sun Icon (Light Mode) -->
+                    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="4"></circle>
+                        <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
+                    </svg>
+                    <!-- Moon Icon (Dark Mode) -->
+                    <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 3a6.8 6.8 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+                    </svg>
+                </button>
+                
+                <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Toggle navigation menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="hero-bg" style="background-image: linear-gradient(to bottom, rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.98)), url('assets/portfolio_banner.jpg');"></div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="badge" id="hero-badge">Available for Freelance Projects</span>
+                    <h1 class="hero-title" id="main-hero-title">Designing & Coding <br><span class="highlight">Digital Experiences</span></h1>
+                    <p class="hero-subtitle" id="hero-description">
+                        Hello! I am a full-stack developer and UI designer specializing in building performant web applications, modern responsive designs, and fully-optimized SEO solutions that grow your business.
+                    </p>
+                    <div class="hero-actions-container">
+                        <a href="#projects" class="btn btn-primary" id="cta-view-work">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary" id="cta-get-in-touch">Let's Talk</a>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator-container">
+                <a href="#about" class="scroll-down-btn" aria-label="Scroll to About Section">
+                    <span class="mouse-icon">
+                        <span class="mouse-wheel"></span>
+                    </span>
+                </a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section section-padding" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-subtitle">Dedicated to creating elegant web layouts and high-performance business applications.</p>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-text-column">
+                        <h3>My Philosophy</h3>
+                        <p class="paragraph">
+                            I focus on writing clean, scalable code and delivering visual designs that are both beautiful and functional. Understanding user requirements and converting complex issues into intuitive digital products is what drives my daily practice.
+                        </p>
+                        <p class="paragraph">
+                            With strong foundations in core web technologies and a focus on search engine performance, I ensure that websites aren't just aesthetically pleasing, but also discoverable and fast.
+                        </p>
+                        <div class="about-meta-grid">
+                            <div class="meta-item">
+                                <span class="meta-label">Location</span>
+                                <span class="meta-value">Remote / Freelance</span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">Email</span>
+                                <span class="meta-value"><a href="mailto:mukitul2k9@gmail.com" id="about-email-link">mukitul2k9@gmail.com</a></span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">Services</span>
+                                <span class="meta-value">Development, Design, SEO</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-stats-column">
+                        <div class="stat-card">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-title">Job Success</div>
+                            <p class="stat-desc">Delivering client goals with precise quality controls.</p>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">Clean</div>
+                            <div class="stat-title">Architecture</div>
+                            <p class="stat-desc">W3C standards, optimized asset loading, and accessibility-first code.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills-section section-padding" id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">My Tech Stack</h2>
+                    <p class="section-subtitle">A collection of tools and languages I specialize in to bring ideas to life.</p>
+                </div>
+                
+                <div class="skills-grid">
+                    <div class="skill-category-card">
+                        <div class="category-icon-wrapper">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                        </div>
+                        <h3>Frontend</h3>
+                        <p class="category-desc">Crafting responsive and interactive user interfaces with modern layouts.</p>
+                        <ul class="skills-tags-list">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript (ES6+)</li>
+                            <li>Bootstrap</li>
+                            <li>Responsive Design</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-category-card">
+                        <div class="category-icon-wrapper">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M3 5V19A9 3 0 0 0 21 19V5"></path><path d="M3 12A9 3 0 0 0 21 12"></path></svg>
+                        </div>
+                        <h3>Backend & Databases</h3>
+                        <p class="category-desc">Developing secure backend server-side logic and database schemas.</p>
+                        <ul class="skills-tags-list">
+                            <li>PHP</li>
+                            <li>MySQL</li>
+                            <li>Python</li>
+                            <li>API Integrations</li>
+                            <li>WordPress Development</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-category-card">
+                        <div class="category-icon-wrapper">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                        </div>
+                        <h3>Design & Optimization</h3>
+                        <p class="category-desc">Ensuring visual quality and high rankings on modern search engines.</p>
+                        <ul class="skills-tags-list">
+                            <li>Figma</li>
+                            <li>Photoshop</li>
+                            <li>On-Page SEO</li>
+                            <li>Speed Optimization</li>
+                            <li>Technical SEO Auditing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects-section section-padding" id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Selected Projects</h2>
+                    <p class="section-subtitle">Explore a selection of design, development, and application work.</p>
+                </div>
+                
+                <div class="projects-filter-bar">
+                    <button class="filter-btn active" data-filter="all" id="filter-all">All Projects</button>
+                    <button class="filter-btn" data-filter="development" id="filter-dev">Development</button>
+                    <button class="filter-btn" data-filter="design" id="filter-design">Web Design</button>
+                    <button class="filter-btn" data-filter="seo" id="filter-seo">SEO</button>
+                </div>
+                
+                <div class="projects-grid" id="portfolio-projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card" data-category="development">
+                        <div class="project-img-wrapper">
+                            <div class="project-card-banner-placeholder">
+                                <span class="placeholder-tag">&lt;dev/&gt;</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category-tag">PHP / JS / CSS</span>
+                            <h3>Travel Agency Tour</h3>
+                            <p class="project-desc">A complete web booking platform for travel agencies featuring interactive tours, destinations filtering, and dynamic user query forms.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/DevKazi/Travel-Agency-Tour-" class="project-link-btn" target="_blank" rel="noopener noreferrer" id="proj-link-travel">View Repo</a>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Project 2 -->
+                    <article class="project-card" data-category="design">
+                        <div class="project-img-wrapper">
+                            <div class="project-card-banner-placeholder design-placeholder">
+                                <span class="placeholder-tag">UI / UX</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category-tag">Design / Bootstrap</span>
+                            <h3>Fishing Adventure Website</h3>
+                            <p class="project-desc">An immersive, responsive landing page layout designed for outdoor tourism. Highlighting visual storytelling, rich media components, and interactive maps.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/DevKazi/Fishing-Adventure" class="project-link-btn" target="_blank" rel="noopener noreferrer" id="proj-link-fishing">View Repo</a>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Project 3 -->
+                    <article class="project-card" data-category="development">
+                        <div class="project-img-wrapper">
+                            <div class="project-card-banner-placeholder app-placeholder">
+                                <span class="placeholder-tag">Web App</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category-tag">JavaScript / MySQL</span>
+                            <h3>Custom Web Applications</h3>
+                            <p class="project-desc">A suite of backend-driven utilities built for tracking project logs, managing database tasks, and executing custom workflow tasks seamlessly.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/DevKazi" class="project-link-btn" target="_blank" rel="noopener noreferrer" id="proj-link-kazi">All Repos</a>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Project 4 -->
+                    <article class="project-card" data-category="seo">
+                        <div class="project-img-wrapper">
+                            <div class="project-card-banner-placeholder seo-placeholder">
+                                <span class="placeholder-tag">SEO</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category-tag">SEO / PageSpeed</span>
+                            <h3>Website Optimization Auditing</h3>
+                            <p class="project-desc">Implemented audits and technical corrections that boosted page loading speeds, consolidated metadata, and improved Google Lighthouse scores.</p>
+                            <div class="project-links">
+                                <span class="badge badge-success">Optimized</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services-section section-padding" id="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">What I Offer</h2>
+                    <p class="section-subtitle">Quality services tailored to help businesses establish a robust online presence.</p>
+                </div>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19l7-7 3 3-10 10-3-3z"></path><path d="M19 12L5 21 2 18l9-14 3-3 5 11z"></path></svg>
+                        </div>
+                        <h3>Web Design</h3>
+                        <p class="service-desc">Creating wireframes and fully responsive visual assets on Figma, translated directly to clean, adaptive layouts using HTML5 and modern CSS3.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                        </div>
+                        <h3>Web Development</h3>
+                        <p class="service-desc">Writing custom script integrations, setting up robust backend APIs in PHP/Python, and building custom themes or functions for WordPress CMS portals.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                        </div>
+                        <h3>SEO & Optimization</h3>
+                        <p class="service-desc">Enhancing search rankings using technical on-page optimization, metadata schema building, Core Web Vitals refinement, and page load speedups.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section section-padding" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">Let's discuss your next project or web collaboration opportunities.</p>
+                </div>
+                
+                <div class="contact-grid">
+                    <div class="contact-info-panel">
+                        <h3>Connect Directly</h3>
+                        <p class="paragraph">Have a detailed query or project outline? Reach out directly via email, or view my active freelancing status.</p>
+                        
+                        <div class="contact-channels">
+                            <div class="channel-card">
+                                <div class="channel-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                </div>
+                                <div class="channel-detail">
+                                    <h4>Email Address</h4>
+                                    <a href="mailto:mukitul2k9@gmail.com" id="contact-email">mukitul2k9@gmail.com</a>
+                                </div>
+                            </div>
+                            
+                            <div class="channel-card">
+                                <div class="channel-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+                                </div>
+                                <div class="channel-detail">
+                                    <h4>Freelance Portfolio</h4>
+                                    <a href="https://www.freelancer.com/u/devkazi" target="_blank" rel="noopener noreferrer" id="contact-freelancer">freelancer.com/u/devkazi</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-panel">
+                        <form id="contact-form" novalidate>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="form-name">Your Name</label>
+                                    <input type="text" id="form-name" placeholder="John Doe" required>
+                                    <span class="error-msg" id="name-error">Please enter your name.</span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="form-email">Your Email</label>
+                                    <input type="email" id="form-email" placeholder="john@example.com" required>
+                                    <span class="error-msg" id="email-error">Please enter a valid email address.</span>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="form-subject">Subject</label>
+                                <input type="text" id="form-subject" placeholder="Project Inquiry" required>
+                                <span class="error-msg" id="subject-error">Please enter a subject.</span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="form-message">Message</label>
+                                <textarea id="form-message" rows="5" placeholder="Let's build something great..." required></textarea>
+                                <span class="error-msg" id="message-error">Please enter a message.</span>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">Send Message</button>
+                            
+                            <div class="form-status-alert hide" id="form-success-banner">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                <span>Message sent successfully! (This is a local preview demonstration)</span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <div class="footer-copyright">
+                <p>&copy; 2026 DevKazi. All rights reserved.</p>
+            </div>
+            <div class="footer-socials">
+                <a href="https://linkedin.com/in/devkazi" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">LinkedIn</a>
+                <a href="https://github.com/DevKazi" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">GitHub</a>
+                <a href="https://fb.com/devkazi2k80" target="_blank" rel="noopener noreferrer" aria-label="Facebook Profile">Facebook</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
